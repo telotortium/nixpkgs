@@ -414,6 +414,15 @@
     }
   },
   {
+    "goPackagePath": "github.com/coreos/go-semver",
+    "fetch": {
+      "type": "git",
+      "url": "https://github.com/coreos/go-semver",
+      "rev": "294930c1e79c64e7dbe360054274fdad492c8cf5",
+      "sha256": "139x6ygn78mci1z5n2h0gp96pbp0ylxxma8pd8pgzpd2hwlw9ddp"
+    }
+  },
+  {
     "goPackagePath": "github.com/matttproud/golang_protobuf_extensions",
     "fetch": {
       "type": "git",
@@ -600,6 +609,15 @@
       "url": "https://github.com/braintree/manners",
       "rev": "cab36f97339b1925cd89e158632728025557e550",
       "sha256": "1q508c62iiklghkhwqz9c0zsn9hrij7kqb93gdywzj7ms7x6hlfh"
+    }
+  },
+  {
+    "goPackagePath": "github.com/bradfitz/iter",
+    "fetch": {
+      "type": "git",
+      "url": "https://github.com/bradfitz/iter",
+      "rev": "454541ec3da2a73fc34fd049b19ee5777bf19345",
+      "sha256": "0v07zlq2h2rjz5mdvh0rgizyzcj68qa235gci6hvlrai7igyi57i"
     }
   },
   {

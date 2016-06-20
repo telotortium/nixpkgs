@@ -167,6 +167,8 @@ in
 
   fetchgitLocal = callPackage ../build-support/fetchgitlocal { };
 
+  fetchipfs = callPackage ../build-support/fetchipfs { };
+
   fetchmtn = callPackage ../build-support/fetchmtn (config.fetchmtn or {});
 
   packer = callPackage ../development/tools/packer { };
@@ -9631,6 +9633,8 @@ in
   buildGoPackage = buildGo16Package;
 
   go2nix = callPackage ../development/tools/go2nix { };
+
+  fetchGxGoPackage = callPackage ../development/go-modules/gx-go { };
 
   ### DEVELOPMENT / LISP MODULES
 
